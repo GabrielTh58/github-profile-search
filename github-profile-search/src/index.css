@@ -1,3 +1,16 @@
 @import "tailwindcss";
 
+#root {
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: var(--default-font-family);
+}
 
+@theme{
+    --color-primary: #005CFF; //bug
+    --default-font-family: 'Nunito Sans', sans-serif;
+}
