@@ -29,7 +29,7 @@ export function SearchInput() {
             <button 
                 onClick={handleSubmit}
                 type="submit"
-                className="text-white p-4 bg-(--color-primary) rounded-lg cursor-pointer">
+                className="text-white p-4 bg-(--color-primary) rounded-lg cursor-pointer transition-all ease-in hover:bg-blue-700">
                 <IconSearch stroke={1} />
             </button>
         </form>
