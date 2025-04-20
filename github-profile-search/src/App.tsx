@@ -1,6 +1,6 @@
 
-import { UserProfile } from "./components/UserProfile"
-import { SearchInput } from "./components/SearchInput"
+import { UserProfile } from "./components/UserProfile/UserProfile"
+import { SearchInput } from "./components/UserSearchForm"
 import { Header } from './components/Header'
 import { BackgroundDecorations } from "./components/BackgroundDecorations"
 

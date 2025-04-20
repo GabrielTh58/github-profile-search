@@ -10,4 +10,6 @@ export interface IUserProfileContext {
   userData: IUser | null;
   setUserProfile: (data: IUser) => void;
   hasSearched: boolean;
+  isLoading: boolean;
+  setIsLoading: (value: boolean) => void;
 }

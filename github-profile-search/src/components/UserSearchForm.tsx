@@ -1,20 +1,27 @@
 import { IconSearch } from "@tabler/icons-react";
 import { useContext, useState } from "react";
-import { fetchUser } from "../services/fetchUser";
+import { fetchUser } from "../api/fetchUser";
 import { UserProfileContext } from "../context/UserProfileContext";
+import { IUser } from "../interfaces/IUser";
 
 export function SearchInput() {
     const [userName, setUserName] = useState('')
-    const {setUserProfile} = useContext(UserProfileContext)
+    const {setUserProfile, setIsLoading} = useContext(UserProfileContext)
     
     const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault()
-        if(!userName.trim()) return
-
-        const dataUser = await fetchUser(userName)
-        setUserProfile(dataUser)
-    }
+        if (!userName.trim()) return
     
+        setIsLoading(true)
+        try {
+          const dataUser = await fetchUser(userName)
+          setUserProfile(dataUser)
+        } catch (error) {
+          setUserProfile({} as IUser)
+        } finally {
+          setIsLoading(false)
+        }
+    }
 
     return (
         <form className="w-full sm:w-[500px] flex items-center justify-between bg-white rounded-lg p-[1px]">
