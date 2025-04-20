@@ -6,7 +6,7 @@ Este projeto é uma aplicação web que permite buscar e visualizar informaçõe
 
 - Buscar usuários do GitHub por nome de usuário
 - Exibir avatar, nome, login e biografia do usuário
-- Tratamento de erro para usuários não encontrados
+- Tratamento de erro e loading 
   
 ##  🛠 Tecnologias Utilizadas
 
@@ -24,7 +24,7 @@ src/
 ├── components/             # Componentes reutilizáveis (Header, SearchInput, UserProfile, etc)
 ├── context/                # Contexto global do perfil
 ├── interfaces/             # Tipagens TypeScript (IUser, Context)
-├── services/               # Requisições à API do GitHub
+├── api/                    # Requisições à API do GitHub
 ├── App.tsx                 # Estrutura principal da aplicação
 ├── main.tsx                # Ponto de entrada da aplicação
 └── index.css               # Estilos globais e customizações do Tailwind
