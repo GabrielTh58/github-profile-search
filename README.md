@@ -1,6 +1,7 @@
 # GitHub User Finder 🔍
 
 Este projeto é uma aplicação web que permite buscar e visualizar informações públicas de qualquer usuário do GitHub, como nome, bio e avatar, consumindo a API oficial do GitHub.
+
 [🔗 Acessar projeto](https://github-profile-search-hazel.vercel.app)
 
 ## ✅ Funcionalidades
