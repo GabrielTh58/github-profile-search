@@ -33,8 +33,8 @@ src/
 
 ## 📸 Demonstração
 
-![Demonstração do projeto](/github-profile-search/src/assets/images/preview) 
-![Demonstração do projeto](/github-profile-search/src/assets/images/preview2) 
+![Demonstração do projeto](./github-profile-search/src/assets/images/preview.png) 
+![Demonstração do projeto](./github-profile-search/src/assets/images/preview2.png) 
 
 ## ✅ Como Executar Localmente
 
