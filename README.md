@@ -34,7 +34,7 @@ src/
 
 ## 📸 Demonstração
 
-![Demonstração do projeto](https://github.com/GabrielTh58/github-profile-search/raw/main/github-profile-search/src/assets/images/preview.png) 
+![Demonstração do projeto](https://github.com/GabrielTh58/github-profile-search/blob/main/github-profile-search/src/assets/images/preview.png) 
 ![Demonstração do projeto](https://github.com/GabrielTh58/github-profile-search/raw/main/github-profile-search/src/assets/images/preview2.png) 
 
 ## ✅ Como Executar Localmente
